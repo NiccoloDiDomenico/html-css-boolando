@@ -9,6 +9,10 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* LAYOUT */
 .container {
     width: 80%;
@@ -58,6 +62,8 @@ img {
     height: 60px;
     background-color: #ff6801;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 3;
 }
 
@@ -133,12 +139,12 @@ a {
     line-height: 40px;
     background-color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 .discount {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 0;
     z-index: 2;
     width: 40px;
@@ -151,7 +157,7 @@ a {
 
 .green {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 45px;
     z-index: 2;
     width: 80px;
@@ -164,9 +170,17 @@ a {
 
 .green.only {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 0px;
     z-index: 2;
+}
+
+.new-price {
+    color: red;
+}
+
+.old-price {
+    color: black;
 }
 
 /* HOVER */
